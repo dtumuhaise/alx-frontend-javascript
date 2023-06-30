@@ -1,5 +1,10 @@
 function getResponseFromAPI() {
-    let p = new Promise((resolve) => {
-        resolve('True');
-    })
+    return new Promise((resolve, reject) => {
+        if (true) {
+            resolve('Success');
+        }
+        else {
+            reject('Error');
+        }
+    });
 }
