@@ -1,6 +1,6 @@
 export default class Currency {
   constructor(code, name) {
-    if (typeof code != 'string' || typeof name != 'string') {
+    if (typeof code !== 'string' || typeof name !== 'string') {
       throw new TypeError('Invalid Type');
     }
 
