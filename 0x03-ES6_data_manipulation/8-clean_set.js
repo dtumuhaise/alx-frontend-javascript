@@ -1,10 +1,11 @@
 function cleanSet(set, startString) {
-  const newSet = new Set();
-  set.forEach((item) => {
-    if (typeof item === 'string' && item.startsWith(startString)) {
-      newSet.add(item);
-    }
-  });
-  return newSet;
+  if (!(set instanceof Set) || typeof startString !== 'string') {
+    return '';
+  }
+
+  const filteredValues = Array.from(set).filter((value) => value.startsWith(startString));
+  const result = filteredValues.join('-');
+  return result;
 }
+
 export default cleanSet;
