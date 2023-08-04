@@ -20,3 +20,14 @@ package-lock.json
 0x02-ES6_classes/10-main.js
 0x02-ES6_classes/9-main.js
 0x02-ES6_classes/7-main.js
+0x04-TypeScript/task_2/.eslintrc.js
+0x04-TypeScript/task_2/main.js
+0x04-TypeScript/task_2/package.json
+0x04-TypeScript/task_2/tsconfig.json
+0x04-TypeScript/task_2/webpack.config.js
+0x04-TypeScript/task_2/dist/main.js
+0x04-TypeScript/task_2/dist/main.js.map
+0x04-TypeScript/task_2/dist/webpack.config.js
+0x04-TypeScript/task_2/dist/webpack.config.js.map
+0x04-TypeScript/task_2/dist/js/main.js
+0x04-TypeScript/task_2/dist/js/main.js.map
